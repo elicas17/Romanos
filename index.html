@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Document</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  
+    <link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+    <div class="container" >
+        <h1>Conversor de nº Romanos a Latino (viceversa)</h1>
+        <div class="romano_latino">
+            <button  id="converL">Latino</button>
+            <i class="fas fa-arrows-alt-h"></i>
+            <button id="converR">Romano</button>
+        </div>
+        <div class="entrada">
+            <div>
+                <label>Entrada decimal (<span id="estadoE"></span>):</label>
+                <input type="text" id="numero">
+                <span id="error" style="display: block; color:rgb(195, 102, 102)"></span>
+            </div>
+            <div class="resultado">
+                <button id="convertir">Mostrar resultado</button>
+            </div>
+        </div>
+        <div class="salida">
+            <p>Resultado (<span id="estadoS"></span>): <span id="resultado"></span></p>
+        </div>
+    </div>
+    <script  type="text/javascript" src="index.js"></script>
+</body>
+</html>
