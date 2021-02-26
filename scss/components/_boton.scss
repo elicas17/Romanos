@@ -1,0 +1,18 @@
+.container .romano_latino button, .container .entrada button{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+.container .romano_latino button:hover{
+    opacity: 0.8;
+    text-decoration: none;
+  }

@@ -1,0 +1,50 @@
+
+@import 'components/boton';
+@import 'components/container';
+@import 'components/entrada';
+body{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    font-family:  'Syne Mono', monospace;
+    font-size: 20px;
+}
+h1{
+    color: rgb(219, 101, 101); 
+    text-align: center;
+    font-size: 30px;
+}
+
+.container div{
+    display:block;
+}
+
+.container .romano_latino{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.container .salida{
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 370px) {
+    body{
+        font-size: 15px;
+
+    }
+    .container h1{ 
+        font-size: 20px;
+    }
+    .container{    
+        width: 95%;
+        padding: 5px;
+    }
+    .container .romano_latino button, .container .entrada button{        
+        font-size: 20px;
+    }
+}
